@@ -10,6 +10,7 @@ make_backup () {
 		printf "\n Backup Ready with name Vulcor_SMP_$date_time.zip\n\n"
 	else
 		printf "\nBackup Failed, Error: $?\n\n"
+	fi
 }
 
 
